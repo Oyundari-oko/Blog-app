@@ -1,42 +1,341 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  background-color: rgb(235, 235, 235);
+  height: 100vh;
+  width: 100vw;
+}
+.blogsDesign {
+  border: rgb(32, 32, 32) solid 1px;
+  border-radius: 10px;
+  width: 25vw;
+  height: 40vh;
+  cursor: pointer;
+}
+.blogsDesign:hover {
+  background-color: rgb(213, 213, 213);
+  color: blue;
+}
+.blogs {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.word {
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 60px;
+}
+.text {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(227, 237, 241);
+  border: solid rgb(227, 237, 241);
+  border-radius: 5px;
+  width: 4vw;
+  height: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(75, 75, 248);
+}
+.text2 {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.flexing {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 20px;
+}
+.images {
+  padding-left: 30px;
+  padding-top: 20px;
+  width: 21vw;
+  height: 20vh;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.textStyle {
+  font-size: 19px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 40px;
+  padding-top: 10px;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+.img {
+  width: 2vw;
+  height: 4vh;
+  border-radius: 100px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.users {
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.usersEdit {
+  display: flex;
+  gap: 10px;
+  padding-left: 30px;
+}
+.time {
+  color: grey;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+.usersComment {
+  display: flex;
+  justify-content: space-between;
+}
+.page {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.buttonStyle {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(194, 225, 252);
+  border: solid rgb(194, 225, 252);
+  border-radius: 10px;
+  color: aliceblue;
+}
+.buttonStyle:hover {
+  background-color: aliceblue;
+  border: solid rgb(194, 225, 252);
+  color: rgb(194, 225, 252);
+}
+.num {
+  font-size: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.input {
+  background-color: rgb(235, 235, 235);
+  border: solid white;
+  font-size: 20px;
+  width: 20vw;
+  height: 4vh;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.title {
+  padding-top: 10px;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.pageImage {
+  width: 75vw;
+  height: 60vh;
+}
+.words {
+  color: grey;
+  font-size: 20px;
+  padding-top: 34px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description {
+  font-size: 25px;
+  padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.lists {
+  font-size: 25px;
+  padding-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.pro {
+  width: 3vw;
+  height: 5vh;
+  border-radius: 100px;
+}
+.prof {
+  padding-top: 20px;
+}
+.profile {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.styk {
+  padding-top: 20px;
+}
+.namee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 25px;
+  padding-top: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.human {
+  /* border: solid grey 1px;
+  border-radius: 4px; */
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.userEdit {
+  display: flex;
+  flex-direction: column;
+}
+.twitterName {
+  color: rgb(184, 184, 184);
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.poster {
+  padding-top: 50px;
+}
+
+.logo {
+  padding-left: 20px;
+  padding-top: 4px;
+  width: 3vw;
+  height: 5vh;
+}
+.postes {
+  background-color: rgb(109, 155, 195);
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  width: 98vw;
+  height: 6vh;
+}
+
+.button {
+  font-size: 15px;
+  background-color: rgb(93, 179, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 6vw;
+  height: 4vh;
+  border: solid 1px aliceblue;
+  border-radius: 10px;
+}
+.nButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+.imgPage {
+  padding-top: 40px;
+}
+
+.editButton {
+  background-color: rgb(109, 155, 195);
+  border: solid 1px rgb(150, 206, 255);
+  color: rgb(0, 63, 118);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 5vw;
+  height: 3vh;
+}
+.editButton:hover {
+  background-color: rgb(13, 142, 255);
+  border: solid rgb(13, 142, 255);
+  color: blue;
+}
+.buttons {
+  padding-top: 10px;
+}
+.nPost {
+  display: flex;
+  justify-content: center;
+}
+.bord {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 50vw;
+  height: 20vh;
+}
+
+.bord2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+.bord3 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 51vw;
+  height: 30vh;
+}
+.text3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 60px;
+  border: solid white;
+}
+.text4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: solid white;
+  font-size: 19px;
+}
+.text5 {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  border: solid white 1px;
+}
+.AddCoImg {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(109, 155, 195);
+  border: solid 1px rgb(150, 206, 255);
+  color: rgb(0, 63, 118);
+  border-radius: 10px;
+  width: 8vw;
+  height: 4vh;
+}
+.postingButton {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  background-color: rgb(109, 155, 195);
+  border: solid 1px rgb(150, 206, 255);
+  color: rgb(0, 63, 118);
+  border-radius: 10px;
+  width: 8vw;
+  height: 4vh;
+}
+.inputError {
+  font-size: 20px;
+  color: red;
+  padding-left: 10px;
 }
