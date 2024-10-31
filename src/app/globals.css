@@ -2,6 +2,8 @@ body {
   background-color: rgb(235, 235, 235);
   height: 100vh;
   width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 .blogsDesign {
   border: rgb(32, 32, 32) solid 1px;
@@ -128,6 +130,7 @@ body {
 .input {
   background-color: rgb(235, 235, 235);
   border: solid white;
+  border-radius: 5px;
   font-size: 20px;
   width: 20vw;
   height: 4vh;
@@ -153,11 +156,11 @@ body {
   padding-top: 34px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.style {
+/* .style {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 .description {
   font-size: 25px;
   padding-top: 20px;
@@ -215,19 +218,19 @@ body {
 }
 
 .logo {
-  padding-left: 20px;
   padding-top: 4px;
-  width: 3vw;
-  height: 5vh;
+  width: 3.5vw;
+  height: 6vh;
 }
 .postes {
   background-color: rgb(109, 155, 195);
   gap: 10px;
   display: flex;
   justify-content: space-between;
+  padding-top: 2px;
   padding-left: 50px;
   width: 98vw;
-  height: 6vh;
+  height: 7vh;
 }
 
 .button {
@@ -340,4 +343,154 @@ body {
   font-size: 20px;
   color: red;
   padding-left: 10px;
+}
+
+@media screen and (max-width: 1356px) {
+  .blogsDesign {
+    border: rgb(32, 32, 32) solid 1px;
+    border-radius: 10px;
+    width: 30vw;
+    height: 40vh;
+    cursor: pointer;
+  }
+
+  .images {
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 25vw;
+    height: 20vh;
+  }
+
+  .text {
+    font-size: 17px;
+  }
+
+  .button {
+    font-size: 14px;
+    width: 8vw;
+    height: 4vh;
+  }
+  .logo {
+    padding-top: 10px;
+    width: 5vw;
+    height: 5vh;
+  }
+
+  .img {
+    width: 4vw;
+    height: 5vh;
+    border-radius: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blogsDesign {
+    border: rgb(32, 32, 32) solid 1px;
+    border-radius: 10px;
+    width: 80vw;
+    height: 45vh;
+    cursor: pointer;
+  }
+
+  .postes {
+    background-color: rgb(109, 155, 195);
+    display: flex;
+    padding-top: 2px;
+    width: 100vw;
+    height: 7vh;
+  }
+
+  .images {
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 70vw;
+    height: 20vh;
+  }
+
+  .text {
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: rgb(227, 237, 241);
+    border: solid rgb(227, 237, 241);
+    border-radius: 5px;
+    width: 16vw;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(75, 75, 248);
+  }
+
+  .button {
+    font-size: 10px;
+    width: 10vw;
+    height: 4vh;
+  }
+  .logo {
+    padding-top: 10px;
+    width: 9vw;
+    height: 4.7vh;
+  }
+
+  .img {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 100px;
+  }
+
+  .bord {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 90vw;
+    height: 20vh;
+  }
+
+  .bord3 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .text3 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 40px;
+    border: solid white;
+  }
+
+  .text5 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: solid white 1px;
+  }
+
+  .postingButton {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgb(109, 155, 195);
+    border: solid 1px rgb(150, 206, 255);
+    color: rgb(0, 63, 118);
+    border-radius: 10px;
+    width: 20vw;
+    height: 4vh;
+  }
+
+  .pageImage {
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .pro {
+    width: 7vw;
+    height: 4vh;
+    border-radius: 100px;
+  }
 }
